@@ -1,12 +1,12 @@
-var display = document.getElementById('display');
-var btnUp = document.getElementById('Up');
-var btnDown = document.getElementById('Down');
-var btnClear = document.getElementById('Clear');
+let display = document.getElementById('display');
+let btnUp = document.getElementById('Up');
+let btnDown = document.getElementById('Down');
+let btnClear = document.getElementById('Clear');
 
-var count = 0;
-var countClickBtnUp = 0;
-var countClickBtnDown = 0;
-var countClickBtnClear = 0;
+let count = 0;
+let countClickBtnUp = 0;
+let countClickBtnDown = 0;
+let countClickBtnClear = 0;
 
 btnUp.addEventListener('click', function () {
     count += 1; 
